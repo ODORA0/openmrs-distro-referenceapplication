@@ -617,20 +617,20 @@
                 "rendering": "radio",
                 "answers": [
                   {
-                    "concept": "159971AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Results pending"
-                  },
-                  {
                     "concept": "1304AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Sample Rejected"
+                  },
+                  {
+                    "concept": "1306AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Not Detected"
                   },
                   {
                     "concept": "1301AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Target Detected"
                   },
                   {
-                    "concept": "1306AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Not Detected"
+                    "concept": "159971AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Results pending"
                   },
                   {
                     "concept": "54b96458-6585-4c4c-a5b1-b3ca7f1be351",
