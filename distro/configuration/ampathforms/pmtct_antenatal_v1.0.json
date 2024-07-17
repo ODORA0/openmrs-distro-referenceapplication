@@ -762,16 +762,16 @@
                 "rendering": "radio",
                 "answers": [
                   {
-                    "concept": "1304AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Sample Rejected"
-                  },
-                  {
                     "concept": "1306AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Not Detected"
                   },
                   {
                     "concept": "1301AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Target Detected"
+                  },
+                  {
+                    "concept": "1304AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Sample Rejected"
                   },
                   {
                     "concept": "159971AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
