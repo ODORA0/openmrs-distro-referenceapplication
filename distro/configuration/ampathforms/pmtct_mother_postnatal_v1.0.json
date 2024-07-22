@@ -477,7 +477,7 @@
                   "validators": [
                     {
                       "type": "js_expression",
-                      "failsWhenExpression": "!/^[0-9]{3,5}[0,1][0-9]{8}$$/.test(myValue)",
+                     "failsWhenExpression": "!/^([0-9]{3}[0-9]{9}|[0-9]{4}[0-9]{9}|[0-9]{5}[0-9]{9})$/.test(myValue)",
                       "message": "Invalid art number, provide an art number that follows this format: 3-5 digits for the facility code, followed by the month and year (MMYY), and ending with 5 digits for the sequential number"
                     }
                   ]
