@@ -16,7 +16,6 @@
     "@openmrs/esm-form-builder-app": "next",
     "@openmrs/esm-active-visits-app": "next",
     "@ohri/openmrs-esm-ohri-core-app": "next",
-    "@ohri/openmrs-esm-ohri-form-render-app": "next",
     "@ohri/openmrs-esm-ohri-pmtct-app": "next",
     "@ohri/esm-namibia-emr-app": "next",
     "@openmrs/esm-devtools-app": "next",
