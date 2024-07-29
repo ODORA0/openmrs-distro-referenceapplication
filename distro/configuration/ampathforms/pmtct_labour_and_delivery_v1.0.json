@@ -767,7 +767,7 @@
                 "concept": "159599AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "rendering": "date",
                 "calculate": {
-                  "calculateExpression": "art_initiation == '160119AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' ? myValue = formatDate('latest_anc_art_start_date') : ''"
+                  "calculateExpression": "art_initiation === '160119AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' && !isEmpty(latest_anc_art_start_date) ? formatDate(latest_anc_art_start_date) : ''"
                 }
               },
               "behaviours": [
