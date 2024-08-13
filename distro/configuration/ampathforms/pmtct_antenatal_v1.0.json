@@ -16,6 +16,7 @@
               "label": "Visit Date",
               "type": "obs",
               "id": "visit_date",
+              "required": true,
               "questionOptions": {
                 "concept": "163260AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "rendering": "date"
@@ -23,7 +24,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "false"
                   },
@@ -182,7 +182,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
                   "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "antenatal_visit_type !== '164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
@@ -215,7 +214,6 @@
                 {
                   "intent": "*",
                   "required": "true",
-                  "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "antenatal_visit_type !== '164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || isEmpty('lmp')"
                   },
@@ -644,7 +642,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
                   "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "!isEmpty(latest_art_start_date) ? true : isEmpty(latest_art_number) && latest_art_initiation == '160119AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || latest_art_initiation == '160120AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' ? false : isEmpty(art_initiation) || art_initiation == '160018AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || art_initiation == '1754AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || art_initiation =='54b96458-6585-4c4c-a5b1-b3ca7f1be351' ||  hiv_test == 'd18fa331-f158-47d0-b344-cf147c7125a4' || hiv_test == '54b96458-6585-4c4c-a5b1-b3ca7f1be351' || hiv_test_result == '664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || hiv_test_result == '1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || hiv_test_result == '54b96458-6585-4c4c-a5b1-b3ca7f1be351'"
@@ -735,7 +732,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
                   "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "recent_viral_load !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' ||  hiv_test == 'd18fa331-f158-47d0-b344-cf147c7125a4' || hiv_test == '54b96458-6585-4c4c-a5b1-b3ca7f1be351' || hiv_test_result == '664AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || hiv_test_result == '1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || hiv_test_result == '54b96458-6585-4c4c-a5b1-b3ca7f1be351'"
@@ -1115,7 +1111,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
                   "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "false"
