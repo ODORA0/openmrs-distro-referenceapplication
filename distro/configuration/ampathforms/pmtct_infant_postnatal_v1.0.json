@@ -16,6 +16,7 @@
               "label": "Visit Date",
               "type": "obs",
               "id": "visit_date",
+              "required": true,
               "questionOptions": {
                 "concept": "159599AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "rendering": "date"
@@ -23,7 +24,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "false"
                   },
@@ -680,7 +680,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
                   "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "infant_transfer_status !== '160563AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
@@ -735,7 +734,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
                   "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "infant_transfer_status !== '159492AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
@@ -764,7 +762,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
                   "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "infant_transfer_status !== '5240AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
@@ -793,7 +790,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
                   "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "infant_transfer_status !== '164861AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
@@ -823,7 +819,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
                   "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "infant_transfer_status !== '160432AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
@@ -855,7 +850,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
                   "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "infant_transfer_status !== '161636AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
