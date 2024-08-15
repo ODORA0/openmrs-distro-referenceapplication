@@ -24,8 +24,6 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
-                  "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "false"
                   },

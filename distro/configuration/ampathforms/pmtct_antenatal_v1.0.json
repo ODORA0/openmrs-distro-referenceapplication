@@ -213,7 +213,7 @@
               "behaviours": [
                 {
                   "intent": "*",
-                  "required": "true",
+                  "unspecified": "true",
                   "hide": {
                     "hideWhenExpression": "antenatal_visit_type !== '164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' || isEmpty('lmp')"
                   },

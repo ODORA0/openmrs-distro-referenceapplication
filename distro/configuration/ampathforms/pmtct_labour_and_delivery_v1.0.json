@@ -1149,7 +1149,7 @@
                   "behaviours": [
                     {
                       "intent": "*",
-                      "unspecified": "true",
+                      "required": "true",
                       "hide": {
                         "hideWhenExpression": "false"
                       },
