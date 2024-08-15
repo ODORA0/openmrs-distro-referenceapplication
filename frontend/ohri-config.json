@@ -152,7 +152,14 @@
     "identifiersTypes": {
       "ptrackerIdentifierType": "4da0a3fe-e546-463f-81fa-084f098ff06c",
       "artUniqueNumberType": "9d6d1eec-2cd6-4637-a981-4a46b4b8b41f"
-    }
+    },
+    "showRecentPregnancy": false,
+    "showMotherArtTherapy": false,
+    "showAppointmentsSummary": false,
+    "showHivExposedInfantSummary": false,
+    "showTotalPregnantWomen": false,
+    "showTotalDeliveries": false,
+    "showHivExposedInfants": false
   },
   "@openmrs/esm-home-app": {
     "extensionSlots": {
