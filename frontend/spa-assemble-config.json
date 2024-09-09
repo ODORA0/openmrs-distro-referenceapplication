@@ -19,7 +19,7 @@
     "@ohri/openmrs-esm-ohri-pmtct-app": "next",
     "@ohri/esm-namibia-emr-app": "next",
     "@openmrs/esm-devtools-app": "next",
-    "@openmrs/esm-form-engine-app": "next"
+    "@openmrs/esm-form-engine-app": "8.1.1-pre.5308"
   },
   "excludedFrontendModules": []
 }
