@@ -844,7 +844,7 @@
                 "concept": "5096AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "rendering": "date",
                 "calculate": {
-                  "calculateExpression": "visit_date !== '' ? addDaysToDate(useFieldValue('visit_date'), 30) : ''"
+                  "calculateExpression": "useFieldValue('visit_date') ? addDaysToDate(useFieldValue('visit_date'), 30) : ''"
                 }
               },
               "behaviours": [
